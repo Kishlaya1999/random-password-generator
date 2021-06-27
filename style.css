@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto',
+          sans-serif;
+}
+
+.container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 50px;
+     height: 100vh;
+     background-color: #ffee00;
+}
+
+.inner-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-color: #98923fa6;
+     padding: 10px;
+     min-height: 45vh;
+     min-width: 20vw;
+     align-items: center;
+}
+
+.password{
+     width:200px;
+     height: 35px;
+     background-color: #ffffff;
+     display: flex;
+     align-items: center;
+     padding-left: 5px;
+     user-select: all;
+}
+
+.password::selection{
+     background: #ffff00;
+     color: #000;
+}
+
+.icon{
+     font-size: 1.5rem;
+     color: #fff;
+     background: black;
+     padding: 5px 7px;
+}
+
+.random-password-container {
+     display: flex;
+     justify-content: space-between;
+     gap: 7px;
+     margin: 20px;
+
+}
+
+.password-contains-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width:240px;
+     gap:5px;
+}
+
+.password-contains{
+     width: 240px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.password-generator{
+     border: none;
+     padding: 10px;
+     background-color: #9e9511da;
+     margin: 10px 0;
+     color: #fff;
+     font-size: 1.2rem;
+     cursor: pointer;
+     box-shadow: 2px 2px 2px #000;
+     /* transition: 100ms ease-in-out; */
+}
+
+.password-generator:hover{
+     box-shadow: inset 2px 2px 2px #000;
+}
